@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.flippey.mydemos.permissionUtil.PermissionMainActivity">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/permission_single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="申请单个权限"
+        android:textColor="#222"
+        android:textSize="22sp"
+        />
+
+
+    <TextView
+        android:id="@+id/permission_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="申请多个权限"
+        android:layout_marginTop="50dp"
+        android:textColor="#d12222"
+        android:textSize="22sp"
+        />
+</LinearLayout>
